@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-gray-100">
+    <div class="flex h-screen">
+        <div class="w-64 bg-white shadow-md">
+            <div class="text-2xl font-bold p-3 border-b">Dashbord</div>
+
+            <nav class="mt-4">
+                <a href="Catagory.html" class="px-4 py-2 block">Catagories</a>
+                <a href="news.html" class="px-4 py-2 block">news</a>
+                <a href="Login.html" class="px-4 py-2 block text-[red]">logout</a>
+            </nav>
+        </div>
+
+    
+    <main class="flex-1 p-6 overflow-y-auto">
+        <div class="bg-white p-6 rounded-lg shadow">
+            <h1 class="font-bold text-xl">Add News
+Title</h1>
+<form>
+<label class="font-semibold mt-4">Title</label>
+<input type="text" placeholder="New title" class="w-full border rounded p-2 m-2">
+<label>Description</label>
+<textarea placeholder="New description" class="w-full border rounded p-2 m-2"></textarea> 
+<label>Category:</label>
+<select class="w-full border rounded p-2 m-2">
+    <option>Select catagory</option>
+    <option>Sports</option>
+    <option>Technology</option>
+    <option>Entertement</option>
+</select>
+
+<label>Upload Image:</label><br>
+<input type="file" class="border "><br><br>
+<button class="bg-blue-600 p-2 border rounded">Add news</button>
+
+
+
+
+</form>
+<h1 class="font-bold text-xl mt-4">News List</h1>
+<table class="w-full table-auto border-collapse">
+                    <th>Title</th>
+                    <th>Catagory</th>
+                    <th>Image</th>
+                    <th>Action</th>
+                    
+                    <tbody>
+                        <tr>
+                            <td class="px-4 py-2 border">Example News Title</td>
+                            <td class="px-4 py-2 border">Sports</td>
+                            <td class="px-4 py-2 border"><img src="">News</td>
+                            <td class="px-4 py-2 border"><button class="bg-green-600 text-white px-3 py-1 rounded mr-2">Edit</button> 
+                            <button class="bg-[red] text-white px-3 py-1 rounded  mr-2">Edit</button></td>
+                        </tr>
+                    </tbody>
+                    </table>
+
+            
+            
+
+        </div>
+    </main>
+
+    
+
+    
+</body>
+</html>
