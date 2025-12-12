@@ -1,0 +1,40 @@
+.hero{
+    height: 100vh;
+    background: url(https://nepalwanders.com/wp-content/uploads/2025/09/4-1-2.jpg);
+    background-size: cover;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    padding: 15px;
+}
+.tour img{
+    height: 240px;
+    object-fit: cover;
+}
+.tour p{
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.nav-pills .nav-link.active {
+    background: transparent;
+    color: black;
+    font-weight: bold;
+}
+.nav-pills .nav-link {
+    color: #000;
+}
+.quote{
+    background: linear-gradient(#0000005f,#00000066), url(https://nepalwanders.com/wp-content/themes/nepalwanders/img/youtube.jpg);
+    background-size: cover;
+    height: 80vh;
+    color: white;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50%;
+}
